@@ -30,6 +30,8 @@ h2{
 ul.social-media {
     list-style: none;
     padding-left: 0px;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 ul.social-media li{
@@ -38,4 +40,20 @@ ul.social-media li{
 
 a.contact {
 	margin-bottom: 10px;
+}
+
+.social-item a i{
+	width: 25px;
+	height: 25px;
+}
+
+.social-item a{
+	font-size: 20px;
+	padding: 5px;
+	min-height: 25px;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100px;
+	border-radius: 100%;
+	background: #0ea6ad;
+	color: #fff;
 }
