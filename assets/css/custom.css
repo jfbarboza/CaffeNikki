@@ -21,6 +21,8 @@ body{
     background: #fff;
     border-radius: 10px;
     border: 3px solid transparent;
+    
+   
     -moz-border-image: -moz-linear-gradient(top, #dcdee2 0%, #6b6170 100%);
     -webkit-border-image: -webkit-linear-gradient(top, #dcdee2 0%, #6b6170 100%);
     border-image: linear-gradient(to bottom, #dcdee2 0%, #6b6170 100%);
