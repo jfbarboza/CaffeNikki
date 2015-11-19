@@ -12,7 +12,7 @@ body{
 .content {
     max-width: 50%;
     margin: 0 auto;
-    margin-top: 10%;
+    margin-top: 17%;
     text-align: center;
     background: #fff;
     border-radius: 10px;
@@ -73,12 +73,7 @@ a.contact {
 	padding: 5px;
 	padding-top: 10px;
 	min-height: 25px;
-	-webkit-border-radius: 100%;
-	-moz-border-radius: 100px;
-	border-radius: 100%;
-	background: #0ea6ad;
-	color: #fff;
-	border: 2px solid #0ea6ad;
+	color: #aaa;
 	
 }
 
@@ -87,12 +82,7 @@ a.contact {
 	padding: 5px;
 	padding-top: 10px;
 	min-height: 25px;
-	-webkit-border-radius: 100%;
-	-moz-border-radius: 100px;
-	border-radius: 100%;
-	background: #fff;
 	color: #0ea6ad;
-	border: 2px solid #0ea6ad;
 }
 
 .transition{
@@ -517,12 +507,12 @@ MEDIA QUERIES
 
 @media screen and (max-width: 767px){
 	
-	.content { max-width: 90% }
+	.content { max-width: 90%, margin-top: 17%; }
 
 }
 
 @media (min-width: 768px) and (max-width: 991px){
 	
-	.content { max-width: 90% }
+	.content { max-width: 90%, margin-top: 17%; }
 	
 }
